@@ -125,6 +125,13 @@ body {
 	width: 30%;
 }
 
+.services article div {
+	margin: 0 auto;
+	background: black;
+	width: 100px;
+	height: 100px;
+}
+
 .services article p {
 	color: #7e7e7e;
 }
