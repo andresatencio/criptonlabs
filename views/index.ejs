@@ -1,12 +1,51 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
   <head>
+  	<meta charset="utf-8">
     <title><%= title %></title>
+    <link rel="stylesheet" href="/bower_components/normalize-css/normalize.css">
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-    probando...
+    
+    <nav class="nav">
+      <ul>
+        <li class="date">
+          <script>
+            <!--
+              var dayNames = ["Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"];
+
+              var now = new Date();
+              document.write('Feliz ' + dayNames[now.getDay()] + '.');
+            -->
+          </script>
+        </li>
+
+        <li>
+          <a href="#">Servicios</a>
+        </li>
+        <li>
+          <a href="#">Contacto</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      
+      <header class="header">
+        <h1 class="logotipo">
+          <a href="/" title="CriptonLabs.com.ar">
+            <img src="/images/logo_criptonlabs.png" alt="CriptonLabs" width="300">
+          </a>
+        </h1>
+        <h2>
+          Nuestra misión es crear la mejor experiencia con la que el mundo utiliza la web.
+        </h2>
+      </header>
+
+    </div>
+
+
+    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
   </body>
 </html>
