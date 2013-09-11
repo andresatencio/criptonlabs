@@ -24,34 +24,32 @@ body {
 
 .contact_info h2 {
 	color: #de338a;
-	text-transform: uppercase;
+	font-family: 'SeroWeb-Thin', sans-serif;
+	font-size: 2em;
+	font-weight: 100;
 
 }
 
 .contact_info p a {
-	color: #de338a;
+	background: #000;
+	border-radius: 5px;
+	color: #fff;
+	padding: 10px;
 	text-decoration: none;
 }
 
 .contact_info p a:hover {
-	text-decoration: underline;
+	background: #333;
 }
 /* END CONTACT INFO */
 
 
 /* FOOTER */
 .footer {
-	background: #333;
-	bottom: 0px;
-	color: #999;
-	display: block;
-	height: 200px;
 	margin-top: 50px;
-	position: absolute;
+	color: #999;
 	width: 100%;
-}
-.footer p {
-	margin: 50px;
+	text-align: center;
 }
 /* END FOOTER */
 
