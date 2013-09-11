@@ -3,6 +3,7 @@ body {
 	color: #7e7e7e;
 	font-size: 14px;
 	padding-top: 30px;
+	overflow-x: hidden;
 }
 
 @font-face {
