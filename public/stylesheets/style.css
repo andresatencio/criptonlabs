@@ -161,4 +161,14 @@ body {
 		width: 100%;
 		margin: 0 auto;
 	}
+
+	.contact_info p a {
+		padding: 0;
+		background: #fff;
+		color: #de338a;
+	}
+
+	.contact_info p a:hover {
+		background: none;
+	}
 }
